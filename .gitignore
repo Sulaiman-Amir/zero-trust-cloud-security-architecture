@@ -1,1 +1,23 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# AWS credentials or sensitive info
+*.pem
+*.key
+*.crt
+*.env
+
+# Python (in case of automation scripts)
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# IDEs / Editors
+.vscode/
+.idea/
 
